@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.card{
+  border:1px solid red;
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+  margin:10px;
+  padding:27px;
+}
+img{
+  object-fit:center;
+  width:70px;
+  height:70px;
+
+}
+.card:hover {
+  margin-top: 1px;
+  cursor: pointer;
+}
+span{
+  font-size: 30px;
+}
